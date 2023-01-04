@@ -8,7 +8,13 @@ void main(){
 
     printf("Meu caractere: %c\n", meuCaractere);
     printf(nome);
+    printf("\n");
     printf("Meu string %s\n", nome);
+
+    //Posso inicializar strings de 3 maneiras diferentes
+    char string1[] = "Sem declarar o tamanho nos colchetes mas inicializando";
+    char string2[10]; //Simplesmente declarando mas sem inicializar com valores. Então preciso colocar o tamanho
+    char string3[51] = "Declarando o tamanho nos colchetes e inicializando";
 
     //Formatando meu printf
     char sobrenome[9] = "Cerdeira";

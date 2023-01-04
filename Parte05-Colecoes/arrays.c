@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+//Posso omitir o tamanho do Array porque ao fornecer o array ele já vai calcular o tamanho
+void funcaoQueRecebeArray(int meuArray[]){
+    printf("O primeiro valor do meu array é %d\n", meuArray[0]);
 
+}
 void main(){
     //Array lijear, vetor
     int meuArray[5] = {1,2,3,4,5}; 
@@ -92,6 +96,7 @@ void main(){
 
     // printf("******\nTestando printf outro Array\n*****\n");
     // printf(meuArray);
+    funcaoQueRecebeArray(meuArray);
 
 
 

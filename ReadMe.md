@@ -7,13 +7,14 @@ Além disso, aqui em baixo vou colocar alguns links úteis em um Cheatsheet para
 - [Playlist com Dicas úteis para este curso.](https://www.youtube.com/watch?v=-yPGYL4_IgQ&list=PLhx-V5qg9T6QkiLCLkzaReh0J_9geSe7m) 
 - Link para o instalador: https://cygwin.com/
 - Link para o vídeo explicando a instalação: https://www.youtube.com/watch?v=-yPGYL4_IgQ 
-- [Devdocs](https://devdocs.io/) - Documentação super útil em várias linguagens
+- [Devdocs](https://devdocs.io/c/) - Documentação super útil em várias linguagens
 - Compilador online: [Coding Ground](https://www.tutorialspoint.com/online_c_compiler.php)
 - Compilador online: [JDoodle](https://www.jdoodle.com/c-online-compiler/)
 - [VSCode Online](https://vscode.dev/)
 - [VSCode para instalar](https://code.visualstudio.com/download)
 - [Code::Blocks](https://www.codeblocks.org/)
 - [CLion](https://www.jetbrains.com/clion/)
+- [Codewars](https://www.codewars.com/)
 
 # Instalando o Cygwin em Windows
 
@@ -96,4 +97,8 @@ Depois, para rodar, você usa o executável sem extensão.
 %lf -> double
 %c -> char
 %s -> string
+%p -> ponteiros
 ```
+
+# Precedência de Operadores
+- https://devdocs.io/c/language/operator_precedence

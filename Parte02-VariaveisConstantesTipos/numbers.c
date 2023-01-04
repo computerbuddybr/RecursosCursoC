@@ -7,6 +7,12 @@ void main(){
     int numero1, numero2;
     int numeroJaDeclarado = 2;
 
+    //Case sensitive
+    char minhavar[9] = "minhavar"; 
+    char MinhaVar[9] = "MinhaVar";
+    printf(minhavar);
+    printf(MinhaVar);
+
     //Tentar atribuir outro tipo à uma variável vai causar erro
     //numeroJaDeclarado = "Isto vai causar um erro";
 

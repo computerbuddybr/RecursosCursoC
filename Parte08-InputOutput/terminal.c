@@ -18,14 +18,19 @@ void main(){
     int numbers[4];
     //printf("Insira 4 números:");
     //scanf("%d", numbers);
+    //Posso fazer um loop pra pessoa colocar em uma linha diferente
     for(int i = 0; i < 4; i++){
         printf("Insira um número:");
         scanf("%d", numbers + i);
     }
-
-    for(int i = 0; i < 4; i++){
+     for(int i = 0; i < 4; i++){
         printf("%d\n", numbers[i]);
     }
+    //Ou posso fazer uma vez só já avisando o scanf que ele vai receber mais de um dado separado por espaços
+    printf("Insira um número:");
+    scanf("%d%d%d%d", &numbers[0],&numbers[1],&numbers[2], &numbers[3]);
+
+   
 
 
 }

@@ -57,7 +57,7 @@ E isso independe do IDE que você usar. Bem mais simples do que tentar fazer o I
 Rode os comandos abaixo no Terminal.
 
 ```
-sudo apt update
+sudo apt upgrade
 
 sudo apt install build-essential
 ```

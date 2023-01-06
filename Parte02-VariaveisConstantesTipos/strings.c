@@ -4,8 +4,7 @@
 
 void main(){
     char meuCaractere = 'A'; //Um caractere, e ocupa 1 byte
-    char nome[8] = "Adriana"; //Um string. Coloco sempre um a mais para o caractere que finaliza o String
-
+    char nome[8] = "Adriana"; //Um string. Coloco sempre um a mais para o caractere que finaliza o String 
     printf("Meu caractere: %c\n", meuCaractere);
     printf(nome);
     printf("\n");
@@ -15,6 +14,8 @@ void main(){
     char string1[] = "Sem declarar o tamanho nos colchetes mas inicializando";
     char string2[10]; //Simplesmente declarando mas sem inicializar com valores. Então preciso colocar o tamanho
     char string3[51] = "Declarando o tamanho nos colchetes e inicializando";
+
+    
 
     //Formatando meu printf
     char sobrenome[9] = "Cerdeira";
@@ -38,7 +39,7 @@ void main(){
         //Compara dois strings. Retorna o valor 0 se os dois strings são iguais
         char aderbaldo[10] = "Aderbaldo";
         char adriana[8] = "Adriana";
-        printf("Resultado comparação: %d\n");
+     
         if(strcmp(nome,aderbaldo) == 0){
             printf("%s e %s são iguais\n", nome, aderbaldo);
         } else{

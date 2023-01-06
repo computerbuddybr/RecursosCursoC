@@ -8,5 +8,5 @@ int minhaFuncao(int a, int b){
 void main(){
     
     //O printf imprime sempre um string, então devo usar a formatação de Strings para fornecer um número
-    printf("%d", minhaFuncao(2,3));
+    printf("Resultado: %d", minhaFuncao(2,3));
 }

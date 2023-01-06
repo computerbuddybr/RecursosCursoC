@@ -5,8 +5,8 @@
 
 void main(){
   printf("Tamanho char: %lu bytes\n", sizeof(char));
-  printf("Tamanho int: %lu bytes\n", sizeof(int));
   printf("Tamanho short: %lu bytes\n", sizeof(short));
+  printf("Tamanho int: %lu bytes\n", sizeof(int));  
   printf("Tamanho long: %lu bytes\n", sizeof(long));
   printf("Tamanho float: %lu bytes\n", sizeof(float));
   printf("Tamanho double: %lu bytes\n", 

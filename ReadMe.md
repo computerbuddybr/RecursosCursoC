@@ -1,7 +1,31 @@
 # Recursos para meu Curso de C na Udemy
 Aqui você vai encontrar os recursos para o meu [curso de C hospedado na Udemy](link para o curso).
 
-Além disso, aqui em baixo vou colocar alguns links úteis em um Cheatsheet para rodar C no Cygwin e Linux.
+# Alguns links meus que podem te interessar:
+
+
+Se interessar se inscreva no meu Newsletter, link abaixo:
+
+https://www.subscribepage.com/Cbbrnewsletter
+
+Ou no Facebook ou Twitter:
+
+http://facebook.com/ComputerBuddyBR
+
+http://twitter.com/ComputerBuddyBR
+
+E meu canal do YouTube com Dicas:
+https://www.youtube.com/computerbuddybr
+
+E eu também criei um Grupo do Facebook para os alunos poderem interagir entre si. Se interessar, corre lá:
+
+https://www.facebook.com/groups/computerbuddybr
+
+E, visite meu site:
+
+http://adrianacerdeira.info/
+
+## Além disso, aqui em baixo vou colocar alguns links úteis e um Cheatsheet para rodar C no Cygwin e Linux.
 
 # Links úteis
 - [Playlist com Dicas úteis para este curso.](https://www.youtube.com/watch?v=-yPGYL4_IgQ&list=PLhx-V5qg9T6QkiLCLkzaReh0J_9geSe7m) 
@@ -14,7 +38,10 @@ Além disso, aqui em baixo vou colocar alguns links úteis em um Cheatsheet para
 - [VSCode para instalar](https://code.visualstudio.com/download)
 - [Code::Blocks](https://www.codeblocks.org/)
 - [CLion](https://www.jetbrains.com/clion/)
+- [Netbeans](https://netbeans.apache.org/)
+- [Eclipse](https://www.eclipse.org/ide/)
 - [Codewars](https://www.codewars.com/)
+- [Cheatsheet de comandos de terminal Linux](https://www.guru99.com/linux-commands-cheat-sheet.html)
 
 # Instalando o Cygwin em Windows
 

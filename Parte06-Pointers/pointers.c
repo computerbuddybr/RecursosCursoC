@@ -20,7 +20,15 @@ void main(){
    printf("Ponteiro inicial do array: %p\n", meuArray);
     //Agora vamos supor que eu forneça a outro ponteiro
     int *segundoElemento = meuArray + 1;
+    printf("Usando o novo ponteiro para ver o endereço de memória do segundo elemento: %p\n", segundoElemento);
     printf("Usando o novo ponteiro para acessar o segundo elemento: %d\n", *segundoElemento);
+
+    for(int i = 0; i < 5; i++){
+        printf("Usando o a variável array como ponteiro para acessar os elemntos: %d\n", *(meuArray + i));
+    }
+     for(int i = 0; i < 5; i++){
+        printf("Usando variável array como ponteiro para acessar os enderços de memória dos: %p\n", (meuArray + i));
+    }
     
 
 

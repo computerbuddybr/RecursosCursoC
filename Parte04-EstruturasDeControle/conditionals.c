@@ -5,11 +5,10 @@ void main(){
     int a = 2;
     int b = 4;
     long two = 2;
-    char twoc = '2';
-
+    
     if(a == b){
         printf("a é b sao iguais\n");
-    } else if(a > b){
+    } else if(a < b){
         printf("a maior que b\n");
     } else {
         printf("a menor que b\n");

@@ -1,11 +1,15 @@
 #include <stdio.h>
 
 
+
+
 void main(){
 
+    
     printf("*****\nContando com o for:\n*****\n");
     for(int i = 0; i < 5; i++){
-        printf("%d\n", i);
+        
+        printf("%d\n", i);        
         
     }
     //printf("Fora do loop %d", i);
@@ -17,7 +21,7 @@ void main(){
         j++;
         
     }
-    //printf("Fora do loop %d\n", j);
+    printf("Fora do loop %d\n", j);
 
 
     printf("*****\nContando com o while:\n*****\n");
@@ -69,9 +73,7 @@ void main(){
             //Ele só vai chegar neste print se não entrar no if
             printf("Como era par não saiu do interno\n");
 
-        }
-
-        
+        }        
 
     }
 

@@ -18,6 +18,8 @@ int incrementar(int a){
  * Função que vai incrementar o valor na minha variável usando um ponteiro
 */
 void dobrar(int *myNum){
+
+    printf("Meu endereço:%p\n", myNum);
     printf("Meu número inicialmente:%d\n", *myNum);
     *myNum *= 2;
 }
@@ -29,7 +31,7 @@ void main(){
     int a = 2;
     int incremento = incrementar(a);
     printf("a: %d\n", a);
-    printf(" Variável incremento: %d\n", incremento);
+    printf("Variável incremento: %d\n", incremento);
     //incrementar(&a);
     //printf("a: %d\n", a);
     int *ponteiroDea = &a;
@@ -53,6 +55,9 @@ void main(){
     //Passando o ponteiro pra função que espera o ponteiro
     dobrar(ponteiroDea);
     printf("a incrementado: %d\n", a);
+
+    // int meuArray[] = {2,3,4};
+    // printf(meuArray);
 
 
 

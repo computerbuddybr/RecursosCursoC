@@ -13,7 +13,8 @@ void main()
     int bytes = sizeof(int);
 
     // Aloco a memória para o meu ponteiro
-    ponteiro = (int *)calloc(elementos, bytes);
+    ponteiro = (int *) calloc(elementos, bytes);
+    printf("\nTestando: %p\n", ponteiro);
     if (ponteiro == NULL)
     {
         printf("A memória não foi alocada\n");
@@ -47,7 +48,8 @@ void main()
 
         elementos += 10;
         // O realloc recebe como primeiro argumento o ponteiro e segundo o tamanho total da memória a ser reservada para o ponteiro
-        ponteiro = (int *)realloc(ponteiro, (elementos * bytes));
+        ponteiro = (int *) realloc(ponteiro, (elementos * bytes));
+        printf("\nTestando: %p\n", ponteiro);
         if (ponteiro == NULL)
         {
             printf("A memória não foi alocada\n");
@@ -62,7 +64,10 @@ void main()
 
             // Manutenção
             free(ponteiro);
-            printf("\nTestando: %f\n", ponteiro);
+            printf("\nTestando: %p\n", ponteiro);
+            for(int i = 0; i < elementos; i++){
+                printf("%d\t", *(ponteiro + i));
+            }
         }
     }
 }

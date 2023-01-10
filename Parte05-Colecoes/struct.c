@@ -31,7 +31,10 @@ void funcao(struct Cliente cliente){
     };
     struct Pedido pedido = { cliente, produto};
 
-    printf("Cliente: %s comprou uma %s por R$%.2f",pedido.cliente.pessoa.nome, pedido.produto.nome, pedido.produto.preco);
+    printf("Cliente: %s comprou uma %s por R$%.2f\n*****\n", pedido.cliente.pessoa.nome, pedido.produto.nome, pedido.produto.preco);
+
+    struct Pedido copiaPedido = pedido;
+    printf("Cliente: %s comprou uma %s por R$%.2f\n*****\n",copiaPedido.cliente.pessoa.nome, copiaPedido.produto.nome, pedido.produto.preco);
     
 }
 
@@ -46,7 +49,7 @@ void main(){
     
     strcpy(cliente.cpf,"222.333.444-45");
     
-    printf("Cliente: %s\nIdade: %d, CPF: %s\n",cliente.pessoa.nome,cliente.pessoa.idade, cliente.cpf);
+    printf("Cliente: %s\nIdade: %d, CPF: %s\n*****\n",cliente.pessoa.nome,cliente.pessoa.idade, cliente.cpf);
     funcao(cliente);
 
 }

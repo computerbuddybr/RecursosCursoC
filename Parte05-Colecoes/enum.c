@@ -1,5 +1,6 @@
 #include <stdio.h>
-typedef enum {
+typedef enum Semana
+{
     segunda,
     terca,
     quarta,
@@ -9,12 +10,31 @@ typedef enum {
     domingo
 
 } SEMANA;
+enum Mes
+{
+    janeiro,
+    fevereiro,
+    marco,
+    abril,
+    maio,
+    junho,
+    julho,
+    agosto,
+    setembro,
+    novembro,
+    dezembro
+};
 
-void main(){
+void main()
+{
     SEMANA dia = segunda;
+    enum Mes meuMes = junho;
     printf("Meu dia é %d\n", dia);
-    for(int i = 1; i < 10; i++){
-        switch (dia){
+    printf("Meu Mês é %d\n", meuMes);
+    for (int i = 0; i < 10; i++)
+    {
+        switch (dia)
+        {
         case segunda:
             printf("Segunda\n");
             break;
@@ -40,5 +60,6 @@ void main(){
             printf("Esse não é um dia da semana\n");
         }
         dia++;
-}
+    }
+    printf("Meu dia é %d\n", dia);
 }

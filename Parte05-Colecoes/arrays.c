@@ -2,12 +2,16 @@
 
 //Posso omitir o tamanho do Array porque ao fornecer o array ele já vai calcular o tamanho
 void funcaoQueRecebeArray(int meuArray[]){
-    printf("O primeiro valor do meu array é %d\n", meuArray[0]);
+    printf("\nO primeiro valor do meu array é %d\n", meuArray[0]);
 
 }
 void main(){
     //Array lijear, vetor
     int meuArray[5] = {1,2,3,4,5}; 
+    int meuArrayNovo[5];
+    meuArrayNovo[0] = 1;
+    
+    
 
     
 
@@ -32,6 +36,15 @@ void main(){
         printf("%d", meuArray2[i]);
     }
     printf("\n");
+    int soma = 0;
+     for(int i = 0; i < 5; i++){
+        soma += meuArray2[i];
+        if(i !=0) {
+            printf("...");
+        } 
+        printf("%d", meuArray2[i]);
+    }
+    printf("\nSoma: %d \n", soma);
 
 
 
@@ -40,6 +53,7 @@ void main(){
         {1,2,3,4,5},
         {6,7,8,9,10}
     };
+    printf("Meu elemento: %d\n",meuArrayMulti[0][1]);
 
     printf("******\nArray multidimensional/Matriz\n*****\n");
     for(int i = 0; i < 2; i++){
@@ -95,8 +109,9 @@ void main(){
     printf(meuString);
 
     // printf("******\nTestando printf outro Array\n*****\n");
-    // printf(meuArray);
+    //printf(meuArray);
     funcaoQueRecebeArray(meuArray);
+   
 
 
 

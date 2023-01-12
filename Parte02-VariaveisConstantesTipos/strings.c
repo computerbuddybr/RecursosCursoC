@@ -4,6 +4,7 @@
 
 void main(){
     char meuCaractere = 'A'; //Um caractere, e ocupa 1 byte
+    meuCaractere = 'B';
     char nome[8] = "Adriana"; //Um string. Coloco sempre um a mais para o caractere que finaliza o String 
     printf("Meu caractere: %c\n", meuCaractere);
     printf(nome);

@@ -95,7 +95,10 @@ Eu não sou usuária Mac, então esta explicação foi tirada da internet em: ht
 Se estiver errada peço que meus alunos que usam Mac me avisem.
 
 - Você deve ir no AppStore e Instalar o XCode
-- Depois você deve instalar as ferramentas de linha de comando abrindo o Terminal e rodando ```xcode-select --install```
+- Depois você deve instalar as ferramentas de linha de comando abrindo o Terminal e rodando 
+```
+xcode-select --install
+```
 - Para compilar e rodar você usa os mesmos comandos que em Linux.
 
 # Compilando e rodando arquivos em Linux, Mac e no Cygwin

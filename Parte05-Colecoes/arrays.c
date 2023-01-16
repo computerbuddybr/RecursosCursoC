@@ -6,7 +6,7 @@ void funcaoQueRecebeArray(int meuArray[]){
 
 }
 void main(){
-    //Array lijear, vetor
+    //Array linear, vetor
     int meuArray[5] = {1,2,3,4,5}; 
     int meuArrayNovo[5];
     meuArrayNovo[0] = 1;
@@ -63,7 +63,7 @@ void main(){
                 printf("...");
             } 
             printf("%d", meuArrayMulti[i][j]);
-    }
+        }
     printf("\n");
     }
 

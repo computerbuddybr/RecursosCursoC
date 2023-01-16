@@ -16,6 +16,8 @@ void main(){
     printf("Adição: %d\n", a + b);
     printf("Subtração: %d\n", a - b);
     printf("Multiplicação: %d\n", a * b);
+    printf("Divisão: %f\n",  10 / 4);
+    printf("Divisão: %f\n", 10.0 / 4.0);
     printf("Divisão: %f\n", (float) a / b);
     printf("Módulo: %d\n", a % b);
 

@@ -50,6 +50,7 @@ void main(){
                 //Quando não for par vai entrar, rodar este printf e sair
                 printf("Agora ele vai sair do loop interno mas não do externo\n");
                 break;
+                printf("Agora ele vai sair do loop interno mas não do externo\n");
             }
             //Ele só vai chegar neste print se não entrar no if
             printf("Como era par não saiu do interno\n");

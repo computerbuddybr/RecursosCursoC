@@ -12,7 +12,7 @@ typedef enum Semana
 } SEMANA;
 enum Mes
 {
-    janeiro,
+    janeiro = 1,
     fevereiro,
     marco,
     abril,

@@ -58,7 +58,11 @@ void main(){
     //Comparação
     //Retornam verdadeiro (1) ou falso (0)
     printf("*****\nComparação\n*****\n");
-    printf("Igualdade: %d\n", a == b);
+    printf("Igualdade: %d\n", a == b);    
+    printf("Igualdade: %d\n", 2 == '2');
+    printf("O que é o 2: %d\n", '2');
+    printf("Igualdade: %d\n", 2 == 2.0);
+    //printf("Igualdade: %d\n", 2 == "2");
     printf("Desigualdade: %d\n", a != b);
     printf("Maior que: %d\n", a > b);
     printf("Menor que: %d\n", a < b);

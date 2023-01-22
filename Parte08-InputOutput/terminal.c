@@ -20,8 +20,10 @@ void main(){
 
     int numbers[4];
     // printf("Insira 4 números:");
-    // scanf("%d", numbers);
+    //Estes dois de baixo vão dar erro
+    // scanf("%d", numbers);    
     // scanf("%d%d%d%d", numbers);
+    //Este vai dar certo
     //scanf("%d%d%d%d", numbers, (numbers + 1), (numbers + 2), (numbers + 3));
     //Posso fazer um loop pra pessoa colocar em uma linha diferente
     for(int i = 0; i < 4; i++){

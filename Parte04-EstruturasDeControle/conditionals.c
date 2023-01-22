@@ -22,7 +22,7 @@ void main(){
             printf("a = 1\n");
             break;
         case '2':
-            printf("a era o String 2?\n");
+            printf("a era o char 2?\n");
             break;
         case 2:
             printf("a = 2\n");

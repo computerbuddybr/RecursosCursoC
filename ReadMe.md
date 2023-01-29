@@ -28,6 +28,7 @@ http://adrianacerdeira.info/
 ## Além disso, aqui em baixo vou colocar alguns links úteis e um Cheatsheet para rodar C no Cygwin e Linux.
 
 # Links úteis
+- [Curso de Introdução à lógica de Programação](http://adrianacerdeira.info/promos/logica-promo.php)
 - [Playlist com Dicas úteis para este curso.](https://www.youtube.com/watch?v=-yPGYL4_IgQ&list=PLhx-V5qg9T6QkiLCLkzaReh0J_9geSe7m) 
 - Link para o instalador: https://cygwin.com/
 - Link para o vídeo explicando a instalação: https://www.youtube.com/watch?v=-yPGYL4_IgQ 

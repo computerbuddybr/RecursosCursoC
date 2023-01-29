@@ -1,5 +1,5 @@
 # Recursos para meu Curso de C na Udemy
-Aqui você vai encontrar os recursos para o meu [curso de C hospedado na Udemy](link para o curso).
+Aqui você vai encontrar os recursos para o meu [curso de C hospedado na Udemy](http://adrianacerdeira.info/promos/c-promo.php).
 
 # Alguns links meus que podem te interessar:
 

@@ -43,7 +43,11 @@ http://adrianacerdeira.info/
 - [Eclipse](https://www.eclipse.org/ide/)
 - [Codewars](https://www.codewars.com/)
 - [Cheatsheet de comandos de terminal Linux](https://www.guru99.com/linux-commands-cheat-sheet.html)
-
+- [Referência Windows para Prompt de Comando](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+- [Lista dos comandos mais usados Prompt de Comando com explicação](https://devcontent.com.br/artigos/windows/principais-comandos-prompt)
+- [Lista de comandos do terminal Mac ou Linux](https://www.hostinger.com.br/tutoriais/comandos-linux)
+- [Lista de comandos do terminal Mac ou Linux](https://www.livrosdelinux.com.br/tabela-de-comandos/)
+- [Diferenças do Shell Bash no Linux para o Mac OS X](https://terminalroot.com.br/2017/04/diferencas-do-shell-bash-no-linux-para-o-mac-os-x.html)
 # Instalando o Cygwin em Windows
 
 Ir para https://cygwin.com/install.html e baixar o instalador do Cygwin para seu sistema
